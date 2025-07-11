@@ -1,15 +1,23 @@
-body{
+body {
     background-color: black;
 }
 
-h1{
-   color : aqua;
+h1 {
+    color: aqua;
 }
 
-p{
-   color : aqua;
+p {
+    color: aqua;
 }
 
-a:hover{
-    color:red
+a:hover {
+    color: red
+}
+
+img {
+    float: right;
+}
+
+h2 {
+    color: aqua;
 }
