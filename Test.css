@@ -1,0 +1,54 @@
+body {
+    background-color: #008CFF;
+    /*  Typical blue BSOD background color */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* Recommended font for modern Windows */
+    color: #FFFFFF;
+    /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    /* Prevent scrollbars */
+}
+
+.bsod-container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.sad-face {
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.url {
+    color: #FFFFFF;
+    /* Ensure the URL text remains visible */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.qr-code {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.qr-code img {
+    width: 100px;
+    /* Adjust QR code image size */
+    height: 100px;
+}
+
+.stop-code {
+    font-size: 18px;
+    margin-top: 20px;
+}
